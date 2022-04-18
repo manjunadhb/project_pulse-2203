@@ -1,5 +1,5 @@
 import React from 'react'
-import "react-bootstrap/dist/react-bootstrap.css"
+import "react-bootstrap/dist/App.css"
 
 function Holiday() {
   return (
