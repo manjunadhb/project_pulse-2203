@@ -7,7 +7,7 @@ function FeeReport() {
     <h1>Create a Fee Report Page</h1>
     <h2>Assigned into Chaitanya</h2>
 
-    <ul>
+      <ul>
         <li>Send and Recieve data from server</li>
         <li>Populate data in table</li>
         <li>search functionaity in table</li>
