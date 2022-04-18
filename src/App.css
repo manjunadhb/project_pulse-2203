@@ -1,0 +1,106 @@
+.mainTable
+{
+   margin-left: 60%;
+   margin-right: 60%;
+   border: none;
+   border-collapse: collapse;
+  }
+
+  .maintd
+  {
+      border: none;
+  }
+
+  .maindiv
+  {
+      padding: 20px;
+  }
+
+table, td 
+{
+    border: 1px solid black;
+
+}
+
+.mainbutton
+{
+    width: 520px;
+    height: 45px;
+    border-radius: 45px;
+    cursor: pointer;
+    border: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: larger;
+    box-shadow: 0px 8px 15px rgba(176, 179, 12, 0.1);
+    transition: all 0.3s ease;
+}
+
+.mainbutton:hover
+{
+    background: #0ef72d;
+    transform: translateY(-7px);
+    color: rgb(44, 216, 44);
+    box-shadow: 0px 10px 25px rgba(95, 46, 229, 0.445);
+}
+
+img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+table, td {    
+    border: 1px solid black;  
+    margin-left: auto;  
+    margin-right: auto;  
+    border-collapse: collapse;    
+    width: 500px;  
+    text-align: center;  
+    font-size: 20px;  
+    }    
+.center
+{
+    text-align: center;
+}
+
+.main
+{
+    background-color: rgb(188, 144, 224);
+}
+
+.row
+{
+    background-color: rgb(167, 245, 148);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: large;
+}
+
+.rightSide
+{
+    display: flex;
+    flex-direction: row;
+   justify-content: flex-end;
+}
+
+
+.childbutton {
+    background-color: #ecf023; /* Green */
+    border: none;
+    color: rgb(238, 37, 37);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .childbutton:hover {
+    background-color: #dc4af0;
+  }
