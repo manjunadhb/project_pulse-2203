@@ -5,7 +5,7 @@ function Holiday() {
   return (
     <div>
       
-<h3 class="title">
+<h3 className='title'>
 			Announce Holiday <small>Announce Holiday</small>
 			</h3>
       
