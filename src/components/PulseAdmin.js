@@ -8,7 +8,7 @@ function PulseAdmin() {
     <div>
 
       <nav className='rightSide'>
-            <div><Link to ="/AdminLogin">LogOut</Link></div>
+            <div><Link to ="/AdminSi">LogOut</Link></div>
       </nav>
 
 
