@@ -357,8 +357,8 @@ height: 40px;
   flex-direction: row;
   padding-top: 20px;
 
-<<<<<<< HEAD
-table1, td1 {    
+}
+.tablee,.tdd {    
   border: 2px solid rgb(5, 7, 13);  
   margin-left: auto;  
   margin-right: auto;  
@@ -371,8 +371,8 @@ table1, td1 {
     
   }
 
-=======
-}
+
+
 /*code added by santhosh related to Manage Tasks-Presentation --code starts here*/
 
 .presentation
@@ -399,4 +399,3 @@ table1, td1 {
   margin:5rem;
 }
 /*code ends here*/
->>>>>>> 17282dd583088742cb6caa5461a04673377d3841
