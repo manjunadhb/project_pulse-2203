@@ -11,7 +11,7 @@ function StudentLogin() {
 
         <div className='center'>
           <h1>Sign In</h1>
-        </div>
+        
         
         <nav>
       <table>
@@ -25,14 +25,16 @@ function StudentLogin() {
           </tr>
           <tr>
             <td><button className='mainbutton'><Link to ="/SignInStudent">Login</Link></button></td>
-            <td><button className='mainbutton'><Link to ="/ForgetPassword?">Forget Password</Link></button></td>
+            <td><Link to ="/ForgetPassword?">Forget Password</Link></td>
           </tr>
           <tr>
-            <td colspan="2"><button className='mainbutton'><Link to ="/CreateAnAccountStudent">Create an Account for Student</Link></button></td>
+            <td colspan="2"><Link to ="/CreateAnAccount">Create an Account</Link></td>
           </tr>
         </tbody>
       </table>
       </nav>
+
+      </div>
 
       <h1>Sign In Student</h1>
 

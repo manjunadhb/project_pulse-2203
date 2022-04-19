@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-function CreateAnAccountStudent() {
+function CreateAnAccount() {
   return (
     <div id='loginMajorDiv'>
       <img src='https://dev.pulse.brninfotech.com/pulse/assets/admin/layout/img/logo-big.png'></img>
@@ -68,8 +68,7 @@ Re-type your password
 
       </div>
 
-      
   )
 }
 
-export default CreateAnAccountStudent
+export default CreateAnAccount
