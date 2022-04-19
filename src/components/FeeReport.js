@@ -5,7 +5,7 @@ function FeeReport() {
   return (
     <div>
 
-      <Table className='table1'>
+      <Table className='tablee'>
   <thead>
     <tr>
       <th>#</th>
@@ -21,7 +21,7 @@ function FeeReport() {
   </thead>
   <tbody>
     <tr>
-      <td className='td1'>1</td>
+      <td className='tdd'>1</td>
       <td>chaitanya</td>
       <td>krishna</td>
       <td>@Chaitanyakrishna</td>
@@ -99,7 +99,7 @@ function FeeReport() {
     </tr>
     <tr>
       <td>8</td>
-      <td colSpan={1}>sindhuja</td>
+      <td colSpan={1}>sindhura</td>
       <td>-</td>
       <td>@sindhuja</td>
       <td>37000</td>
@@ -121,9 +121,9 @@ function FeeReport() {
     </tr>
     <tr>
       <td>10</td>
-      <td colSpan={1}>Larry the Bird</td>
+      <td colSpan={1}>Devender</td>
       <td>-</td>
-      <td>@twitter</td>
+      <td>@Devender</td>
       <td>37000</td>
       <td>18500</td>
       <td>18500</td>
@@ -132,9 +132,9 @@ function FeeReport() {
     </tr>
     <tr>
       <td>11</td>
-      <td colSpan={1}>Larry the Bird</td>
+      <td colSpan={1}>manjunath</td>
       <td>-</td>
-      <td>@twitter</td>
+      <td>@manjunath</td>
       <td>37000</td>
       <td>18500</td>
       <td>18500</td>
@@ -143,9 +143,9 @@ function FeeReport() {
     </tr>
     <tr>
       <td>12</td>
-      <td colSpan={1}>Larry the Bird</td>
+      <td colSpan={1}>Name</td>
       <td>-</td>
-      <td>@twitter</td>
+      <td>@Name</td>
       <td>37000</td>
       <td>18500</td>
       <td>18500</td>
@@ -154,9 +154,9 @@ function FeeReport() {
     </tr>
     <tr>
       <td>13</td>
-      <td colSpan={1}>Larry the Bird</td>
+      <td colSpan={1}>Name</td>
       <td>-</td>
-      <td>@twitter</td>
+      <td>@Name</td>
       <td>37000</td>
       <td>18500</td>
       <td>18500</td>
