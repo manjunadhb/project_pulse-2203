@@ -359,6 +359,7 @@ height: 40px;
   padding-top: 20px;
 
 }
+/*code added by santhosh related to Manage Tasks-Presentation --code starts here*/
 
 .presentation
 {
@@ -383,3 +384,4 @@ height: 40px;
   display: inline-block;
   margin:5rem;
 }
+/*code ends here*/
