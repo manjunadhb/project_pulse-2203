@@ -1,10 +1,10 @@
 import React from 'react'
 
-function CreateAnAccountStudent() {
+function CreateAnAccount() {
   return (
     <div>
-      
-      <h1>Create an Account for Student</h1>
+        
+        <h1>Create an Account</h1>
 
       <h2>Create a New Account Page</h2>
       <h2>Assign into Manjunadh</h2>
@@ -15,9 +15,9 @@ function CreateAnAccountStudent() {
         <li>Pass data to server</li>
         <li>Responsive Layout</li>
       </ul>
-      
-      </div>
+
+    </div>
   )
 }
 
-export default CreateAnAccountStudent
+export default CreateAnAccount

@@ -7,7 +7,7 @@ function StudentID() {
     <div>
 
         <nav className='rightSide'>
-            <div><Link to ="/StudentLogin">LogOut</Link></div>
+            <div><Link to ="/">LogOut</Link></div>
         </nav>
 
     </div>

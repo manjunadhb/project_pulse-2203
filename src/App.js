@@ -6,7 +6,6 @@ import {Route, Routes} from "react-router-dom";
 import Login from './components/Login';
 import AdminLogin from "./components/AdminLogin";
 import StudentLogin from "./components/StudentLogin";
-import CreateAnAccountStudent from './components/CreateAnAccountStudent';
 import SignInStudent from './components/SignInStudent';
 import ForgetPassword from "./components/ForgetPassword";
 import Home from './components/Home';
@@ -18,7 +17,7 @@ import ApplyLeave from './components/ApplyLeave';
 import Curriculum from './components/Curriculum';
 import StudentID from './components/StudentID';
 import LogOut from "./components/LogOut";
-import CreateAnAccountAdmin from './components/CreateAnAccountAdmin';
+import CreateAnAccount from './components/CreateAnAccount';
 import SignInAdmin from './components/SignInAdmin';
 import Dashboard from "./components/Dashboard";
 import Manage from "./components/Manage";
@@ -66,7 +65,7 @@ function App() {
     <Routes>
         <Route path='' element={<Login/>}></Route>
         <Route path='AdminLogin' element={<AdminLogin/>}></Route>
-        <Route path='CreateAnAccountAdmin' element={<CreateAnAccountAdmin/>}></Route>
+        <Route path='CreateAnAccount' element={<CreateAnAccount/>}></Route>
         <Route path='SignInAdmin' element={<SignInAdmin/>}>
             <Route path='Dashboard' element={<Dashboard/>}>
               <Route path='Rankings' element={<Rankings/>}></Route>
@@ -116,7 +115,7 @@ function App() {
         <Route path='ForgetPassword' element={<ForgetPassword/>}></Route>
 
         <Route path='StudentLogin' element={<StudentLogin/>}></Route>
-        <Route path='CreateAnAccountStudent' element={<CreateAnAccountStudent/>}></Route>
+        <Route path='CreateAnAccount' element={<CreateAnAccount/>}></Route>
         <Route path='SignInStudent' element={<SignInStudent/>}>
             <Route path='Home' element={<Home/>}></Route>
             <Route path='DailyStatusUpdate' element={<DailyStatusUpdate/>}></Route>
