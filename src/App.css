@@ -146,8 +146,100 @@ table, td {
   }
 }
 
-.h1class
-{
+
+.hah{
+
+  
+  line-height: 2;
+  color: #333333;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  
+  box-sizing: border-box;
+  
+  padding: 0px;
+  background-color: #f7f7f7;
+  margin-bottom: 25px;
+}
+
+.hd{
+
+  
+  line-height: 2;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  
+  box-sizing: border-box;
+  border-radius: 0 !important;
+  min-height: 41px;
+  border-bottom: 0;
+  padding: 0 10px;
+  margin-bottom: 0;
+  color: #fff;
+  background-color: #8e5fa2;
+}
+
+.tb1{
+
+  border: 1px solid purple;
+  line-height: 5;
+  color: #333333;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  
+  box-sizing: border-box;
+  margin-right: 0px;
+  margin-left: 300px;
+
+  display: flexbox;
+  align-content: space-between;
+}
+
+#applyLeave{
+ 
+  color: #FFFFFF;
+  background-color: #26a69a;
+}
+
+.div2{
+
+ 
+  line-height: 2;
+  color: #333333;
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  direction: ltr;
+  box-sizing: border-box;
+  padding: 20px 10px;
+  margin: 0;
+  background-color: #e8e0e0;
+  border-top: 1px solid #e5e5e5;
+}
+
+.input{
+
+  background-color: rgb(221, 216, 216);
+  padding: 5px;
+  margin: 0px;
+}
+
+.title{
+  
+  box-sizing: border-box;
+  line-height: 2;
+  font-family: "Open Sans", sans-serif;
+  padding: 0px;
+  letter-spacing: -1px;
+  display: block;
+  color: rgb(42, 41, 41);
+  margin: 0px 0px 15px 0px;
+  font-weight: 300;
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.h1class{
   color: gray;
 }
 
@@ -264,8 +356,8 @@ height: 40px;
   display: flex;
   flex-direction: row;
   padding-top: 20px;
-}
 
+<<<<<<< HEAD
 table1, td1 {    
   border: 2px solid rgb(5, 7, 13);  
   margin-left: auto;  
@@ -279,3 +371,32 @@ table1, td1 {
     
   }
 
+=======
+}
+/*code added by santhosh related to Manage Tasks-Presentation --code starts here*/
+
+.presentation
+{
+  display: inline-block;
+
+}
+.participantHere
+{
+  width:30rem;
+  height:20rem;
+  border: 2px solid green;
+  display: inline-block;
+  margin:5rem;
+
+}
+.TopicHere
+{
+  
+  width:30rem;
+  height:20rem;
+  border: 2px solid green;
+  display: inline-block;
+  margin:5rem;
+}
+/*code ends here*/
+>>>>>>> 17282dd583088742cb6caa5461a04673377d3841
