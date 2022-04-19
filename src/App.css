@@ -360,3 +360,26 @@ height: 40px;
 
 }
 
+.presentation
+{
+  display: inline-block;
+
+}
+.participantHere
+{
+  width:30rem;
+  height:20rem;
+  border: 2px solid green;
+  display: inline-block;
+  margin:5rem;
+
+}
+.TopicHere
+{
+  
+  width:30rem;
+  height:20rem;
+  border: 2px solid green;
+  display: inline-block;
+  margin:5rem;
+}
