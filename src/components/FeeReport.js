@@ -5,7 +5,7 @@ function FeeReport() {
   return (
     <div>
 
-      <Table>
+      <Table className='table1'>
   <thead>
     <tr>
       <th>#</th>
@@ -21,7 +21,7 @@ function FeeReport() {
   </thead>
   <tbody>
     <tr>
-      <td>1</td>
+      <td className='td1'>1</td>
       <td>chaitanya</td>
       <td>krishna</td>
       <td>@Chaitanyakrishna</td>
