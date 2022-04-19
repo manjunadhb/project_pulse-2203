@@ -16,17 +16,17 @@ function AdminLogin() {
         <thead></thead>
         <tbody>
           <tr>
-            <td Colspan="2"><div>email</div></td>
+            <td colSpan="2"><div>email</div></td>
           </tr>
           <tr>
-            <td Colspan="2"><div>password</div></td>
+            <td colSpan="2"><div>password</div></td>
           </tr>
           <tr>
             <td><button className='mainbutton'><Link to ="/SignInAdmin">Login</Link></button></td>
             <td><Link to ="/ForgetPassword?">Forget Password</Link></td>
           </tr>
           <tr>
-            <td Colspan="2"><Link to ="/CreateAnAccount">Create an Account</Link></td>
+            <td colSpan="2"><Link to ="/CreateAnAccount">Create an Account</Link></td>
           </tr>
         </tbody>
       </table>
