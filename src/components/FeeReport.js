@@ -55,7 +55,7 @@ function FeeReport() {
     </tr>
     <tr>
       <td>4</td>
-      <td colSpan={1}>Barath</td>
+      <td ColSpan={1}>Barath</td>
       <td>-</td>
       <td>@barath</td>
       <td>37000</td>
@@ -66,7 +66,7 @@ function FeeReport() {
     </tr>
     <tr>
       <td>5</td>
-      <td colSpan={1}>Md Nadeem</td>
+      <td ColSpan={1}>Md Nadeem</td>
       <td>-</td>
       <td>@Nadeem</td>
       <td>37000</td>
@@ -77,7 +77,7 @@ function FeeReport() {
     </tr>
     <tr>
       <td>6</td>
-      <td colSpan={1}>Nagarani</td>
+      <td ColSpan={1}>Nagarani</td>
       <td>-</td>
       <td>@Nagarani</td>
       <td>37000</td>
@@ -88,7 +88,7 @@ function FeeReport() {
     </tr>
     <tr>
       <td>7</td>
-      <td colSpan={1}>Manjunath</td>
+      <td ColSpan={1}>Manjunath</td>
       <td>-</td>
       <td>@Manjunath</td>
       <td>37000</td>
@@ -99,7 +99,7 @@ function FeeReport() {
     </tr>
     <tr>
       <td>8</td>
-      <td colSpan={1}>sindhura</td>
+      <td ColSpan={1}>sindhura</td>
       <td>-</td>
       <td>@sindhuja</td>
       <td>37000</td>
@@ -110,7 +110,7 @@ function FeeReport() {
     </tr>
     <tr>
       <td>9</td>
-      <td colSpan={1}>Archana</td>
+      <td ColSpan={1}>Archana</td>
       <td>-</td>
       <td>@Archana</td>
       <td>37000</td>
@@ -121,7 +121,7 @@ function FeeReport() {
     </tr>
     <tr>
       <td>10</td>
-      <td colSpan={1}>Devender</td>
+      <td ColSpan={1}>Devender</td>
       <td>-</td>
       <td>@Devender</td>
       <td>37000</td>
@@ -132,7 +132,7 @@ function FeeReport() {
     </tr>
     <tr>
       <td>11</td>
-      <td colSpan={1}>manjunath</td>
+      <td ColSpan={1}>manjunath</td>
       <td>-</td>
       <td>@manjunath</td>
       <td>37000</td>
@@ -143,7 +143,7 @@ function FeeReport() {
     </tr>
     <tr>
       <td>12</td>
-      <td colSpan={1}>Name</td>
+      <td ColSpan={1}>Name</td>
       <td>-</td>
       <td>@Name</td>
       <td>37000</td>
@@ -154,7 +154,7 @@ function FeeReport() {
     </tr>
     <tr>
       <td>13</td>
-      <td colSpan={1}>Name</td>
+      <td ColSpan={1}>Name</td>
       <td>-</td>
       <td>@Name</td>
       <td>37000</td>
