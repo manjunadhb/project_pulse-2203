@@ -62,7 +62,6 @@ table, td {
     height: 40vh; 
     text-align: center;  
     font-size: 20px;
-    background-color: #dc4af0;
       
     }    
 
@@ -359,6 +358,21 @@ height: 40px;
   flex-direction: row;
   padding-top: 20px;
 
+<<<<<<< HEAD
+table1, td1 {    
+  border: 2px solid rgb(5, 7, 13);  
+  margin-left: auto;  
+  margin-right: auto;  
+  border-collapse: collapse;    
+  width: 100vw; 
+  height: 40vh; 
+  text-align: center;  
+  font-size: 20px;
+  background-color: #dc4af0;
+    
+  }
+
+=======
 }
 /*code added by santhosh related to Manage Tasks-Presentation --code starts here*/
 
@@ -386,3 +400,4 @@ height: 40px;
   margin:5rem;
 }
 /*code ends here*/
+>>>>>>> 17282dd583088742cb6caa5461a04673377d3841
