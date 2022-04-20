@@ -17,7 +17,7 @@ function StudentLogin() {
         <thead></thead>
         <tbody>
           <tr>
-            <td colSpan="2"><div><input type="text" name="email"  placeholder="Email"></input></div><br></br><div><input type="text" name="password" placeholder="Password"></input></div><br></br><div><button className='mainbutton'><Link to ="/SignInAdmin">Login</Link></button><Link to ="/ForgetPassword?">Forget Password</Link></div></td>
+            <td colSpan="2"><div><input type="text" name="email"  placeholder="Email"></input></div><br></br><div><input type="text" name="password" placeholder="Password"></input></div><br></br><div><button className='mainbutton'><Link to ="/SignInStudent">Login</Link></button><Link to ="/ForgetPassword?">Forget Password</Link></div></td>
           </tr>
           </tbody>
       </table>
