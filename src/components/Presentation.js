@@ -29,21 +29,6 @@ function Presentation() {
 
       <div className='participantHere'>Choose Participant</div>
       <div className='TopicHere'>Choose Topic Here</div>
-
-    
-      <div>
-        
-            <h2>Assigned into V Santosh</h2>
-
-              <ul>
-                <li>Getting Participants</li>
-                <li>Getting Topics</li>
-                <li>Animation to pick person and topic randomly</li>
-                <li>Review Presentation and submit to server</li>
-                <li>Get presentation history</li>
-                <li>Choose Batch</li>
-              </ul>
-      </div>
     
   </div>
   )
