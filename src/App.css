@@ -406,3 +406,17 @@ height: 40px;
   display: inline-block;
   margin:5rem;
 }
+
+.page-content one {
+  max-width: 1140px;
+  font-family: Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #455056;
+  background-color: #f2f8f9;
+  font-weight: 400;
+}
+div {
+  display: block;
+  box-sizing: border-box;
+}
