@@ -2,9 +2,8 @@ import React from 'react'
 
 function CreateAnAccount() {
   return (
-
     <div id='loginMajorDiv'>
-      <img src='https://dev.pulse.brninfotech.com/pulse/assets/admin/layout/img/logo-big.png'></img>
+      <img src='https://dev.pulse.brninfotech.com/pulse/assets/admin/layout/img/logo-big.png' alt=""></img>
 
 
       <div id='loginTable'>
@@ -23,7 +22,7 @@ Choose Gender
 Choose Marital Status
 </div>
 <div id='loginIndividualDivImg'>
-<img src='https://dev.pulse.brninfotech.com/pulse/assets/admin/layout/img/noImage.png'></img>
+<img src='https://dev.pulse.brninfotech.com/pulse/assets/admin/layout/img/noImage.png' alt=""></img>
 </div>
 <div id='loginIndividualDivSelect'>
 Select image
@@ -67,8 +66,6 @@ Re-type your password
 </div>
 
       </div>
-
-      
   )
 }
 

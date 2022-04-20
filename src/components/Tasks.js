@@ -14,7 +14,7 @@ function Tasks() {
 <br></br>
 
 
-<table className='tasksTable'>
+<table id='tasksTable1'>
   <thead>
   <tr>
   <th>#</th>
