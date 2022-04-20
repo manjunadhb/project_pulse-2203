@@ -1,54 +1,56 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import {Button} from 'react-bootstrap';
+import {Button, Dropdown} from 'react-bootstrap';
 
 
 function CreateAnAccount() {
   
   return (
-    <div id='loginMajorDiv'>
+    <div className='loginMajorDiv'>
       <img src='https://dev.pulse.brninfotech.com/pulse/assets/admin/layout/img/logo-big.png' alt=""></img>
 
 
-      <div id='loginTable'>
+      <div className='loginTable'>
 
 <h1>Sign Up</h1>
 <p>Enter your name exactly as per your educational certificates.:</p>
 
 
-<div id='loginIndividualDiv' >
-Name as per certificates
+<div className='loginIndividualDiv'>
+<input className='loginIndividualDivInput' type="text" placeholder='Name as per certificates'></input> 
 </div>
-<div id='loginIndividualDiv'>
-Choose Gender
+<div className='loginIndividualDiv'>
+<input className='loginIndividualDivInput' type="text" placeholder='Choose Gender'></input>
 </div>
-<div id='loginIndividualDiv'>
-Choose Marital Status
+<div className='loginIndividualDiv'>
+<input className='loginIndividualDivInput' type="text" placeholder='Choose Marital Status'></input>
 </div>
-<div id='loginIndividualDivImg'>
+<div className='loginIndividualDivImg'>
 <img src='https://dev.pulse.brninfotech.com/pulse/assets/admin/layout/img/noImage.png' alt=""></img>
 </div>
-<div id='loginIndividualDivSelect'>
-Select image
+<div className='loginIndividualDivSelect'>
+  <button>Select Image</button>
 </div>
-<div id='loginIndividualDiv'>
-Mobile No.
+<div className='loginIndividualDiv'>
+<input className='loginIndividualDivInput' type="text" placeholder='Mobile No.'></input>
 </div>
-<div id='loginIndividualDiv'>
-City/Town
+<div className='loginIndividualDiv'>
+<input className='loginIndividualDivInput' type="text" placeholder='City/Town'></input>
 </div>
-<div id='loginIndividualDiv'>
-Choose your State
+<div className='loginIndividualDiv'>
+<input className='loginIndividualDivInput' type="text" placeholder='Choose your State'></input>
 </div>
 <p>Enter your account details below:</p>
-<div id='loginIndividualDiv'>
-Email
+<div className='loginIndividualDiv'>
+<input className='loginIndividualDivInput' type="text" placeholder='Email'></input>
+
 </div>
-<div id='loginIndividualDiv'>
-Password
+<div className='loginIndividualDiv'>
+<input className='loginIndividualDivInput' type="text" placeholder='Password'></input>
+
 </div>
-<div id='loginIndividualDiv'>
-Re-type your password
+<div className='loginIndividualDiv'>
+<input className='loginIndividualDivInput' type="text" placeholder='Re-type your password'></input>
 </div>
 <br></br>
 <div> 
@@ -57,15 +59,15 @@ Re-type your password
 
 <br></br>
 
-<div id='loginPageBackSubmit'>
-<div id='loginPageBack'>
+<div className='loginPageBackSubmit'>
+<div className='loginPageBack'>
   
- <button><Link to="StudentLogin">Back</Link></button>
+ <button><Link to="/">Back</Link></button>
 
 
 </div>
-<div id='loginPageSubmit'>
-  Submit
+<div className='loginPageSubmit'>
+  <button>Submit</button>
 </div>
 </div>
 

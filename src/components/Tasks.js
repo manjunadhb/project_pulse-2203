@@ -5,7 +5,7 @@ function Tasks() {
     <div>
     
   <h1 className='h1class'>Tasks</h1>
-  <h3 className='h3class'>Home > Tasks ></h3>
+  <h3 className='h3class'>Home > Tasks > </h3>
 
   <div className='tasksDiv'>
 
@@ -14,12 +14,12 @@ function Tasks() {
 <br></br>
 
 
-<table id='tasksTable1'>
+<table className='tasksTable1'>
   <thead>
   <tr>
   <th>#</th>
-<th>UID</th>
-<th>ID</th>
+<th>UclassName</th>
+<th>className</th>
 <th>Type</th>
 <th>Title</th>
 <th>Requirements</th>
@@ -33,7 +33,7 @@ function Tasks() {
 </thead>
 
 
-<tr id='tdTaskTable'>
+<tr className='tdTaskTable'>
 <td>1</td>
 <td>BPT1</td>
 <td>81175</td>
@@ -46,11 +46,11 @@ Closed : 0</td>
 <td>No</td>
 <td>Before 11:00 am on 16 March 2022</td>
 <td>Not more than 40 MB</td>
-<td id='pendingReview'>Review Pending</td>
+<td className='pendingReview'>Review Pending</td>
 <td>0/100</td>
 </tr>
 
-<tr id='tdTaskTable'>
+<tr className='tdTaskTable'>
 <td>2</td>
 <td>BTT2</td>
 <td>81187</td>
@@ -63,11 +63,11 @@ Closed : 0</td>
 <td>NA</td>
 <td>Before 11:00 am on 16 March 2022</td>
 <td>Not more than 40 MB</td>
-<td id='pendingReview'>Review Pending</td>
+<td className='pendingReview'>Review Pending</td>
 <td>0/100</td>
 </tr>
 
-<tr id='tdTaskTable'>
+<tr className='tdTaskTable'>
 <td>3</td>
 <td>BPT3</td>
 <td>81175</td>
@@ -80,11 +80,11 @@ Closed : 0</td>
 <td>No</td>
 <td>Before 11:00 am on 17 March 2022</td>
 <td>Not more than 40 MB</td>
-<td id='pendingReview'>Review Pending</td>
+<td className='pendingReview'>Review Pending</td>
 <td>0/100</td>
 </tr>
 
-<tr id='tdTaskTable'>
+<tr className='tdTaskTable'>
 <td>4</td>
 <td>BTT4</td>
 <td>81187</td>
@@ -97,11 +97,11 @@ Closed : 0</td>
 <td>NA</td>
 <td>Before 11:00 am on 17 March 2022</td>
 <td>Not more than 40 MB</td>
-<td id='pendingReview'>Review Pending</td>
+<td className='pendingReview'>Review Pending</td>
 <td>0/100</td>
 </tr>
 
-<tr id='tdTaskTable'>
+<tr className='tdTaskTable'>
 <td>5</td>
 <td>BPT5</td>
 <td>81175</td>
@@ -114,11 +114,11 @@ Closed : 0</td>
 <td>No</td>
 <td>Before 11:00 am on 18 March 2022</td>
 <td>Not more than 40 MB</td>
-<td id='pendingReview'>Review Pending</td>
+<td className='pendingReview'>Review Pending</td>
 <td>0/100</td>
 </tr>
 
-<tr id='tdTaskTable'>
+<tr className='tdTaskTable'>
 <td>6</td>
 <td>BTT6</td>
 <td>81187</td>
@@ -131,11 +131,11 @@ Closed : 0</td>
 <td>NA</td>
 <td>Before 11:00 am on 18 March 2022</td>
 <td>Not more than 40 MB</td>
-<td id='pendingReview'>Review Pending</td>
+<td className='pendingReview'>Review Pending</td>
 <td>0/100</td>
 </tr>
 
-<tr id='tdTaskTable'>
+<tr className='tdTaskTable'>
 <td>7</td>
 <td>BPT7</td>
 <td>81175</td>
@@ -148,11 +148,11 @@ Closed : 0</td>
 <td>No</td>
 <td>Before 11:00 am on 19 March 2022</td>
 <td>Not more than 40 MB</td>
-<td id='pendingReview'>Review Pending</td>
+<td className='pendingReview'>Review Pending</td>
 <td>0/100</td>
 </tr>
 
-<tr id='tdTaskTable'>
+<tr className='tdTaskTable'>
 <td>8</td>
 <td>BTT8</td>
 <td>81187</td>
@@ -165,11 +165,11 @@ Closed : 0</td>
 <td>NA</td>
 <td>Before 11:00 am on 19 March 2022</td>
 <td>Not more than 40 MB</td>
-<td id='pendingReview'>Review Pending</td>
+<td className='pendingReview'>Review Pending</td>
 <td>0/100</td>
 </tr>
 
-<tr id='tdTaskTable'>
+<tr className='tdTaskTable'>
 <td>9</td>
 <td>BPT9</td>
 <td>81175</td>
@@ -182,11 +182,11 @@ Closed : 0</td>
 <td>No</td>
 <td>Before 11:00 am on 20 March 2022</td>
 <td>Not more than 40 MB</td>
-<td id='pendingReview'>Review Pending</td>
+<td className='pendingReview'>Review Pending</td>
 <td>0/100</td>
 </tr>
 
-<tr id='tdTaskTable'>
+<tr className='tdTaskTable'>
 <td>10</td>
 <td>BTT10</td>
 <td>81187</td>
@@ -199,7 +199,7 @@ Closed : 0</td>
 <td>NA</td>
 <td>Before 11:00 am on 20 March 2022</td>
 <td>Not more than 40 MB</td>
-<td id='pendingReview'>Review Pending</td>
+<td className='pendingReview'>Review Pending</td>
 <td>0/100</td>
 </tr>
 
@@ -207,7 +207,7 @@ Closed : 0</td>
 
 </table>
 
-<h3 id='taskFoot'>Showing 1 to 10 of 10 entries</h3>
+<h3 className='taskFoot'>Showing 1 to 10 of 10 entries</h3>
 
 
 </div>
