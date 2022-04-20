@@ -1,7 +1,9 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import {Button} from 'react-bootstrap';
 
 function CreateAnAccount() {
+  
   return (
     <div id='loginMajorDiv'>
       <img src='https://dev.pulse.brninfotech.com/pulse/assets/admin/layout/img/logo-big.png'></img>
@@ -56,7 +58,10 @@ Re-type your password
 
 <div id='loginPageBackSubmit'>
 <div id='loginPageBack'>
-  Back
+  
+ <button><Link to="StudentLogin">Back</Link></button>
+
+
 </div>
 <div id='loginPageSubmit'>
   Submit

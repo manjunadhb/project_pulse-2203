@@ -1,6 +1,6 @@
 import React from 'react'
 
-import {Link} from 'react-router-dom'
+import {Link} from 'react-router-dom';
 
 
 function StudentLogin() {
@@ -29,12 +29,15 @@ function StudentLogin() {
           </tr>
           <tr>
             <td colspan="2"><Link to ="/CreateAnAccount">Create an Account</Link></td>
+            
           </tr>
         </tbody>
       </table>
       </nav>
 
       </div>
+
+      
 
       <h1>Sign In Student</h1>
 
