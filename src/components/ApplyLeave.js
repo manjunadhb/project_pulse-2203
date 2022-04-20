@@ -5,16 +5,16 @@ function ApplyLeave() {
     <div>  
     <h1>Apply Leave</h1>
 
-    <nav aria-label="breadcrumb">
+    {/* <nav aria-label="breadcrumb">
         <ol class="breadcrumb pmd-breadcrumb">
             <li class="breadcrumb-item">
                 <a href="/SignInStudent/Home">Home</a>
             </li>
             <li class="breadcrumb-item active" aria-current="page">Apply Leave</li>
         </ol>
-    </nav>
+    </nav> */}
 
-    <div class="page-content one">
+    <div class="page-contentone">
         {/* <!-- Apply Leave Form --> */}
         <div class="card pmd-card single-col-form">
             <form id="apply-leave" method="post" action="" novalidate="novalidate">
