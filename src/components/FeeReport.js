@@ -8,20 +8,20 @@ function FeeReport() {
       <Table className='tablee'>
   <thead>
     <tr>
-      <th>#</th>
-      <th>First Name</th>
-      <th>Last Name</th>
-      <th>Username</th>
-      <th>Total Amount</th>
-      <th>First Installment</th>
-      <th>Second Installment</th>
-      <th>Due Amount</th>
-      <th>Mode of Payment</th>
+      <th className='tdd'>#</th>
+      <th className='tdd'>First Name</th>
+      <th className='tdd'>Last Name</th>
+      <th className='tdd'>Username</th>
+      <th className='tdd'>Total Amount</th>
+      <th className='tdd'>First Installment</th>
+      <th className='tdd'>Second Installment</th>
+      <th className='tdd'>Due Amount</th>
+      <th className='tdd'>Mode of Payment</th>
     </tr>
   </thead>
   <tbody>
-    <tr>
-      <td className='tdd'>1</td>
+    <tr className='tdd'>
+      <td>1</td>
       <td>chaitanya</td>
       <td>krishna</td>
       <td>@Chaitanyakrishna</td>
@@ -31,7 +31,7 @@ function FeeReport() {
       <td>Nill</td>
       <td>Online</td>
     </tr>
-    <tr>
+    <tr className='tdd'>
       <td>2</td>
       <td>Raju</td>
       <td>-</td>
@@ -42,7 +42,7 @@ function FeeReport() {
       <td>Nill</td>
       <td>Online</td>
     </tr>
-    <tr>
+    <tr className='tdd'>
       <td>3</td>
       <td>Prashanth</td>
       <td>-</td>
@@ -53,7 +53,7 @@ function FeeReport() {
       <td>Nill</td>
       <td>Online</td>
     </tr>
-    <tr>
+    <tr className='tdd'>
       <td>4</td>
       <td colSpan={1}>Barath</td>
       <td>-</td>
@@ -64,7 +64,7 @@ function FeeReport() {
       <td>Nill</td>
       <td>Online</td>
     </tr>
-    <tr>
+    <tr className='tdd'>
       <td>5</td>
       <td colSpan={1}>Md Nadeem</td>
       <td>-</td>
@@ -75,7 +75,7 @@ function FeeReport() {
       <td>Nill</td>
       <td>Online</td>
     </tr>
-    <tr>
+    <tr className='tdd'>
       <td>6</td>
       <td colSpan={1}>Nagarani</td>
       <td>-</td>
@@ -86,7 +86,7 @@ function FeeReport() {
       <td>Nill</td>
       <td>Online</td>
     </tr>
-    <tr>
+    <tr className='tdd'>
       <td>7</td>
       <td colSpan={1}>Manjunath</td>
       <td>-</td>
@@ -97,7 +97,7 @@ function FeeReport() {
       <td>Nill</td>
       <td>Online</td>
     </tr>
-    <tr>
+    <tr className='tdd'>
       <td>8</td>
       <td colSpan={1}>sindhura</td>
       <td>-</td>
@@ -108,7 +108,7 @@ function FeeReport() {
       <td>Nill</td>
       <td>Online</td>
     </tr>
-    <tr>
+    <tr className='tdd'>
       <td>9</td>
       <td colSpan={1}>Archana</td>
       <td>-</td>
@@ -119,7 +119,7 @@ function FeeReport() {
       <td>Nill</td>
       <td>Online</td>
     </tr>
-    <tr>
+    <tr className='tdd'>
       <td>10</td>
       <td colSpan={1}>Devender</td>
       <td>-</td>
@@ -130,7 +130,7 @@ function FeeReport() {
       <td>Nill</td>
       <td>Online</td>
     </tr>
-    <tr>
+    <tr className='tdd'>
       <td>11</td>
       <td colSpan={1}>manjunath</td>
       <td>-</td>
@@ -141,7 +141,7 @@ function FeeReport() {
       <td>Nill</td>
       <td>Online</td>
     </tr>
-    <tr>
+    <tr className='tdd'>
       <td>12</td>
       <td colSpan={1}>Name</td>
       <td>-</td>
@@ -152,7 +152,7 @@ function FeeReport() {
       <td>Nill</td>
       <td>Online</td>
     </tr>
-    <tr>
+    <tr className='tdd'>
       <td>13</td>
       <td colSpan={1}>Name</td>
       <td>-</td>
