@@ -67,7 +67,7 @@ table, td {
   font-size: 20px;
 }
 
-.row
+.row1
 {
     background-color: rgb(167, 245, 148);
     display: flex;
@@ -433,3 +433,43 @@ div {
   display: block;
  
 }
+
+/* Nadeem code  */
+
+.subMenu{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  }
+
+  .OptwithSearch{
+
+    margin-left: 150px;
+    width: 20%;
+  }
+
+  .Report{
+
+    background-color: #428bca;
+    color: #fff;
+    border-width: 0;
+    font-size: 14px;
+    margin-left: 50px;
+    height: 35px;
+  }
+
+  .search{
+    display: inline;
+    float: right;
+  }
+
+  table{
+    margin-top: 20px;
+  }
+
+
+
+  
+ 
+
+
+/* Ends of Nadeem Code  */
