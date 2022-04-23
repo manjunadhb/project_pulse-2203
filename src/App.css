@@ -367,20 +367,20 @@ height: 40px;
 
 
 .tdd {    
-  border: 1px solid rgb(5, 7, 13);  
+  border: 3px solid rgb(5, 7, 13);  
   margin-left: auto;  
   margin-right: auto;  
-  border-collapse: separate;    
+  border-collapse: collapse;    
   width: 100vw; 
-  height: 40vh; 
+  height: 20vh; 
   text-align: center;  
   font-size: 20px;
-  background-color: #4af060;
+  
+  
     
   }
 
   .tablee {    
-    border: 2px solid rgb(5, 7, 13);  
     margin-left: auto;  
     margin-right: auto;  
     border-collapse: collapse;    
@@ -389,8 +389,7 @@ height: 40px;
     text-align: center;  
     font-size: 20px;
     background-color: #4af060;
-    border-color: #364150;
-      
+    border-color: #0e5bc6;   
     }
 
 .presentation
@@ -473,3 +472,14 @@ div {
 
 
 /* Ends of Nadeem Code  */
+
+.forms{
+  background-color:darkgrey;
+  display:block;
+  text-align: center;
+  margin:0rem;
+  height: 100vh;
+  width: 100vw;
+  
+}
+
