@@ -5,7 +5,7 @@ function SignInAdmin() {
   return (
     <div>
         
-        <nav className='row'>
+        <nav className='row1'>
             <div><img src="https://dev.pulse.brninfotech.com/pulse/assets/admin/layout/img/logo.png" alt=""></img></div>
             <div><button className='childbutton'><Link to ="Dashboard">Dashboard</Link></button></div>
             <div><button className='childbutton'><Link to ="Manage">Manage</Link></button></div>

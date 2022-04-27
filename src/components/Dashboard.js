@@ -6,7 +6,7 @@ function Dashboard() {
   return (
     <div className='Dashboard'>
 
-    <nav className='row'>
+    <nav className='row1'>
           <div><button className='childbutton'><Link to = 'Rankings'>Rankings</Link></button></div>
           <div><button className='childbutton'><Link to = 'FeeReport'>Fee Report</Link></button></div>
           <div><button className='childbutton'><Link to = 'BatchesSummary'>Batches Summary</Link></button></div>

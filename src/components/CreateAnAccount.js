@@ -1,64 +1,118 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+import {Button, Dropdown} from 'react-bootstrap';
+
 
 function CreateAnAccount() {
+  
   return (
-    <div id='loginMajorDiv'>
+    <div className='loginMajorDiv'>
       <img src='https://dev.pulse.brninfotech.com/pulse/assets/admin/layout/img/logo-big.png' alt=""></img>
 
 
-      <div id='loginTable'>
+      <div className='loginTable'>
 
 <h1>Sign Up</h1>
 <p>Enter your name exactly as per your educational certificates.:</p>
 
 
-<div id='loginIndividualDiv' >
-Name as per certificates
+<div className='loginIndividualDiv'>
+<input className='loginIndividualDivInput' type="text" placeholder='Name as per certificates'></input> 
 </div>
-<div id='loginIndividualDiv'>
-Choose Gender
+<div className='loginIndividualDiv'>
+<select className='loginIndividualDivInput'>
+
+<option>Choose Gender</option>
+<option>Male</option>
+<option>Female</option>
+
+</select>
 </div>
-<div id='loginIndividualDiv'>
-Choose Marital Status
+<div className='loginIndividualDiv'>
+<select className='loginIndividualDivInput'>
+
+<option>Choose Marital Status</option>
+<option>Married</option>
+<option>Unmarried</option>
+
+</select>
 </div>
-<div id='loginIndividualDivImg'>
+<div className='loginIndividualDivImg'>
 <img src='https://dev.pulse.brninfotech.com/pulse/assets/admin/layout/img/noImage.png' alt=""></img>
 </div>
-<div id='loginIndividualDivSelect'>
-Select image
+<div className='loginIndividualDivSelect'>
+  <input type="file"></input>
 </div>
-<div id='loginIndividualDiv'>
-Mobile No.
+<div className='loginIndividualDiv'>
+<input className='loginIndividualDivInput' type="number" placeholder='Mobile No.'></input>
 </div>
-<div id='loginIndividualDiv'>
-City/Town
+<div className='loginIndividualDiv'>
+<input className='loginIndividualDivInput' type="text" placeholder='City/Town'></input>
 </div>
-<div id='loginIndividualDiv'>
-Choose your State
+<div className='loginIndividualDiv'>
+<select className='loginIndividualDivInput'>
+
+<option>Choose your State</option>
+    <option>Andhra Pradesh</option>
+<option>Arunachal Pradesh</option>
+<option>Assam</option>
+<option>Bihar</option>
+<option>Chhattisgarh</option>
+<option>Goa</option>
+<option>Gujarat</option>
+<option>Haryana</option>
+<option>Himachal Pradesh</option>
+<option>Jharkhand</option>
+<option>Karnataka</option>
+<option>Kerala</option>
+<option>Madhya Pradesh</option>
+<option>Maharashtra</option>
+<option>Manipur</option>
+<option>Meghalaya</option>
+<option>Mizoram</option>
+<option>Nagaland</option>
+<option>Odisha</option>
+<option>Punjab</option>
+<option>Rajasthan</option>
+<option>Sikkim</option>
+<option>Tamil Nadu</option>
+<option>Telangana</option>
+<option>Tripura</option>
+<option>Uttar Pradesh</option>
+<option>Uttarakhand</option>
+<option>West Bengal</option>
+</select>
+
 </div>
 <p>Enter your account details below:</p>
-<div id='loginIndividualDiv'>
-Email
+<div className='loginIndividualDiv'>
+<input className='loginIndividualDivInput' type="email" placeholder='Email'></input>
+
 </div>
-<div id='loginIndividualDiv'>
-Password
+<div className='loginIndividualDiv'>
+<input className='loginIndividualDivInput' type="password" placeholder='Password'></input>
+
 </div>
-<div id='loginIndividualDiv'>
-Re-type your password
+<div className='loginIndividualDiv'>
+<input className='loginIndividualDivInput' type="password" placeholder='Re-type your password'></input>
 </div>
 <br></br>
 <div> 
-  I agree to the Terms of Service & Privacy Policy
+  <input type="checkbox"></input>
+  <lable>I agree to the Terms of Service & Privacy Policy</lable>
 </div>
 
 <br></br>
 
-<div id='loginPageBackSubmit'>
-<div id='loginPageBack'>
-  Back
+<div className='loginPageBackSubmit'>
+<div className='loginPageBack'>
+  
+ <button><Link to="/">Back</Link></button>
+
+
 </div>
-<div id='loginPageSubmit'>
-  Submit
+<div className='loginPageSubmit'>
+<input type="submit" value="Submit"></input>
 </div>
 </div>
 

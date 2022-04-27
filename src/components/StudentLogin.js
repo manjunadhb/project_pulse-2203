@@ -1,6 +1,6 @@
 import React from 'react'
 
-import {Link} from 'react-router-dom'
+import {Link} from 'react-router-dom';
 
 
 function StudentLogin() {
@@ -19,13 +19,25 @@ function StudentLogin() {
           <tr>
             <td colSpan="2"><div><input type="text" name="email"  placeholder="Email"></input></div><br></br><div><input type="text" name="password" placeholder="Password"></input></div><br></br><div><button className='mainbutton'><Link to ="/SignInStudent">Login</Link></button><Link to ="/ForgetPassword?">Forget Password</Link></div></td>
           </tr>
-          </tbody>
+          <tr>
+            <td colspan="2"><div>password</div></td>
+          </tr>
+          <tr>
+            <td><button className='mainbutton'><Link to ="/SignInStudent">Login</Link></button></td>
+            <td><Link to ="/ForgetPassword?">Forget Password</Link></td>
+          </tr>
+          <tr>
+            <td colspan="2"><Link to ="/CreateAnAccount">Create an Account</Link></td>
+            
+          </tr>
+        </tbody>
       </table>
           <div><Link to ="/CreateAnAccount">Create an Account</Link></div>
           
       </nav>
 
       </div>
+
 
       <h1>Sign In Student</h1>
 
@@ -39,6 +51,7 @@ function StudentLogin() {
       </ul>
           
     </div>
+  
   )
 }
 
